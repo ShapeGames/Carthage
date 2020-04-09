@@ -243,7 +243,7 @@ Up-to-date with version 0.33.0 of the original Carthage. Additionally it contain
 
 ## Quick Start
 
-1. Get Carthage by running `brew install carthage` or choose [another installation method](#installing-carthage)
+1. Get Carthage by choosing [installation method](#installing-carthage)
 1. Create a [Cartfile][] in the same directory where your `.xcodeproj` or `.xcworkspace` is
 1. List the desired dependencies in the [Cartfile][], for example:
 
@@ -282,6 +282,8 @@ For an in depth guide, read on from [Adding frameworks to an application](#addin
 ## Installing Carthage
 
 There are multiple options for installing Carthage:
+
+**If you already have Carthage installed with another method than the one you choose now, then you must uninstall Carthage before you proceed.**
 
 * **Installer:** Download and run the `Carthage.pkg` file for the latest [release](https://github.com/ShapeGames/Carthage/releases), then follow the on-screen instructions. If you are installing the pkg via CLI, you might need to run `sudo chown -R $(whoami) /usr/local` first.
 
