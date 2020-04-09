@@ -21,12 +21,6 @@ This is a fork on the official [Carthage](https://github.com/Carthage/Carthage) 
 
 See [this video](https://youtu.be/21nbRGpy3xM) for an overview and some demos.
 
-To install:
-
-`brew tap nsoperations/formulas && brew install nsoperations/formulas/carthage`
-
-See [Installing Carthage](#installing-carthage)
-
 ## Contents
 
 - [Change Log](#change-log)
@@ -249,7 +243,7 @@ Up-to-date with version 0.33.0 of the original Carthage. Additionally it contain
 
 ## Quick Start
 
-1. Get Carthage by running `brew tap nsoperations/formulas && brew install nsoperations/formulas/carthage` or choose [another installation method](#installing-carthage)
+1. Get Carthage by running `brew install carthage` or choose [another installation method](#installing-carthage)
 1. Create a [Cartfile][] in the same directory where your `.xcodeproj` or `.xcworkspace` is
 1. List the desired dependencies in the [Cartfile][], for example:
 
@@ -289,9 +283,7 @@ For an in depth guide, read on from [Adding frameworks to an application](#addin
 
 There are multiple options for installing Carthage:
 
-* **Installer:** Download and run the `Carthage.pkg` file for the latest [release](https://github.com/nsoperations/Carthage/releases), then follow the on-screen instructions. If you are installing the pkg via CLI, you might need to run `sudo chown -R $(whoami) /usr/local` first.
-
-* **Homebrew:** You can use [Homebrew](http://brew.sh) and install the `carthage` tool on your system. Since this is a fork you need to first tap the forked formula by `brew tap nsoperations/formulas`. Then run simply run `brew update` and `brew install -s nsoperations/formulas/carthage`. (note: if you previously installed the binary version of Carthage, you should delete `/Library/Frameworks/CarthageKit.framework`. If you installed the official carthage via brew, first remove it via `brew uninstall carthage`).
+* **Installer:** Download and run the `Carthage.pkg` file for the latest [release](https://github.com/ShapeGames/Carthage/releases), then follow the on-screen instructions. If you are installing the pkg via CLI, you might need to run `sudo chown -R $(whoami) /usr/local` first.
 
 * **From source:** If you’d like to run the latest development version (which may be highly unstable or incompatible), simply clone the `master` branch of the repository, then run `make install` or `make prefix_install PREFIX="<INSTALL_DIR>"`. Requires Xcode 9.4 (Swift 4.1).
 
