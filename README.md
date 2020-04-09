@@ -59,7 +59,7 @@ See [this video](https://youtu.be/21nbRGpy3xM) for an overview and some demos.
 
 ### 0.45.2+shapegames
 
-- Fixed a semantic versioning parsing bug.
+- Fixed semantic versioning parsing bug.
 
 ### 0.45.1+nsoperations
 
