@@ -57,6 +57,10 @@ See [this video](https://youtu.be/21nbRGpy3xM) for an overview and some demos.
 
 ## Change Log
 
+### 0.45.2+shapegames
+
+- Fixed a semantic versioning parsing bug.
+
 ### 0.45.1+nsoperations
 
 - Fixed bug with `--dependencies-hash` where the hash would not be stored in the version file if the flag was not supplied.
