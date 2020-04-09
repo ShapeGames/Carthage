@@ -275,7 +275,7 @@ extension SemanticVersion {
         .union(SemanticVersion.semVerDecimalDigits)
 
     fileprivate static let asciiAlphabeth = CharacterSet(
-        charactersIn: "abcdefghijklmnopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVXYZ"
+        charactersIn: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     )
 
     /// Set of valid character for SemVer build metadata section
