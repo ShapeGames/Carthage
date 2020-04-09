@@ -283,7 +283,7 @@ For an in depth guide, read on from [Adding frameworks to an application](#addin
 
 There are multiple options for installing Carthage:
 
-**If you already have Carthage installed with another method than the one you choose now, then you must uninstall Carthage before you proceed.**
+**If you already have Carthage installed with another method than the one you choose now, then you must [uninstall Carthage](https://stackoverflow.com/a/48040795) before you proceed.**
 
 * **Installer:** Download and run the `Carthage.pkg` file for the latest [release](https://github.com/ShapeGames/Carthage/releases), then follow the on-screen instructions. If you are installing the pkg via CLI, you might need to run `sudo chown -R $(whoami) /usr/local` first.
 
